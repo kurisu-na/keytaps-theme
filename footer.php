@@ -17,6 +17,15 @@
     <?php get_template_part( 'footer-widget' ); ?>
 	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
 		<div class="container pt-3 pb-3">
+			<div class="navbar-brand justify-content-center">
+				<?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
+					<a href="<?php echo esc_url( home_url( '/' )); ?>">
+						<img src="<?php echo esc_url(get_theme_mod( 'wp_bootstrap_starter_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
+					</a>
+				<?php else : ?>
+					<a class="site-title" href="<?php echo esc_url( home_url( '/' )); ?>"><?php esc_url(bloginfo('name')); ?></a>
+				<?php endif; ?>
+			</div>
             <div class="site-info">
                 Design and content &copy; <?php echo date('Y'); ?> <?php echo '<a href="https://christinanatasha.me/">Christina Natasha</a>'; ?>
                 <span class="sep"> | </span>

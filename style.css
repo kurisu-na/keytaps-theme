@@ -4,7 +4,7 @@ Theme URI: https://github.com/kurisu-na/keytaps-theme
 Author: Christina Natasha
 Author URI: http://christinanatasha.me
 Description: For personal use only. Based on the WP Bootstrap Starter. Uses the <a href="http://www.color-hex.com/color-palette/58673">Light Delineation</a> color palette.
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: keytaps-redesigned
@@ -418,6 +418,10 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
 
 .navbar-toggle .icon-bar {
   background: #000 none repeat scroll 0 0;
+}
+
+.navbar-brand {
+  max-width: 5rem;
 }
 
 .dropdown-menu .dropdown-toggle::after {

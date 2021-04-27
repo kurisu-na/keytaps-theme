@@ -290,11 +290,6 @@ require get_template_directory() . '/inc/extras.php';
 require get_template_directory() . '/inc/customizer.php';
 
 /**
- * Load plugin compatibility file.
- */
-require get_template_directory() . '/inc/plugin-compatibility/plugin-compatibility.php';
-
-/**
  * Load custom WordPress nav walker.
  */
 if ( ! class_exists( 'wp_bootstrap_navwalker' )) {

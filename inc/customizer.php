@@ -28,7 +28,7 @@ function wp_bootstrap_starter_customize_register( $wp_customize ) {
     );
 
     //Theme Option
-    $wp_customize->add_setting( 'theme_option_setting', array(
+    $wp_customize->add_setting( 'preset_style_setting', array(
         'default'   => 'default',
         'type'       => 'theme_mod',
         'capability' => 'edit_theme_options',
@@ -117,6 +117,23 @@ function wp_bootstrap_starter_customize_register( $wp_customize ) {
 
 
     //Site Name Text Color
+   $wp_customize->add_section(
+        'site_name_text_color',
+        array(
+            'title' => __( 'Other Customizations', 'wp-bootstrap-starter' ),
+            //'description' => __( 'This is a section for the header banner Image.', 'wp-bootstrap-starter' ),
+            'priority' => 40,
+        )
+    );
+    $wp_customize->add_section(
+        'colors',
+        array(
+            'title' => __( 'Background Color', 'wp-bootstrap-starter' ),
+            //'description' => __( 'This is a section for the header banner Image.', 'wp-bootstrap-starter' ),
+            'priority' => 50,
+            'panel' => 'styling_option_panel',
+        )
+    );
     $wp_customize->add_section(
         'background_image',
         array(
