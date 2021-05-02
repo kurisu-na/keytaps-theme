@@ -19,14 +19,14 @@
 		<div class="container pt-3 pb-3">
 			<?php if ( get_theme_mod( 'wp_bootstrap_starter_logo' ) ): ?>
 				<div class="navbar-brand justify-content-center">
-					<a href="https://christinanatasha.me">
+					<a href="https://kurisunatasha-at.work">
 						<img src="<?php echo esc_url(get_theme_mod( 'wp_bootstrap_starter_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
 					</a>
 				</div>
 			<?php endif; ?>
             <div class="site-info">
                 <p>
-					Design and content &copy; <?php echo date('Y'); ?> <?php echo '<a href="https://christinanatasha.me">Christina Natasha</a>'; ?>
+					Design and content &copy; <?php echo date('Y'); ?> <?php echo '<a href="https://kurisunatasha-at.work">Christina Natasha</a>'; ?>
 				</p>
 				<p>
 					Connect with me! <br>

@@ -22,7 +22,7 @@
 		<?php
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php the_date( $format='Y-m-d' ); ?>
+			<?php echo get_the_date( $format='Y-m-d' ); ?>
 			<?php
 				if( current_user_can( 'edit_posts' ) ) { 
 					edit_post_link( $text='Edit', $before=' | ' );
