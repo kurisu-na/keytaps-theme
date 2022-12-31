@@ -33,10 +33,6 @@
                 	<a href="https://www.linkedin.com/in/kurisunatasha25">LinkedIn</a>
 					<span class="sep"> | </span>
 					<a href="https://bit.ly/kurisu-upwork-profile">Upwork</a>
-					<span class="sep"> | </span>
-					<a href="https://www.fiverr.com/kurisu_na">Fiverr</a>
-					<span class="sep"> | </span>
-					<a href="https://www.behance.net/kurisu_na">Behance</a>
                 </p>
 				<p>
 					<a class="credits" href="https://afterimagedesigns.com/wp-bootstrap-starter/" target="_blank" title="WordPress Technical Support" alt="Bootstrap WordPress Theme"><?php echo esc_html__('Based on the Bootstrap WordPress Theme','wp-bootstrap-starter'); ?></a>
